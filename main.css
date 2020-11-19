@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    height: 100%;
+    position: relative;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.img-bubble{
+    position: absolute;
+}
+
+.img-bubble-top{
+    top: -50%;
+    left: 20%;
+    transform: translate(-50%) rotate(340deg);
+}
+
+.img-bubble-bottom{
+    right: 15%;
+    bottom: -60%;
+    transform: translateX(50%);
+}
