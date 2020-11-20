@@ -126,3 +126,24 @@ html, body{
     font-size: .7rem;
     letter-spacing: 2px;
 }
+
+
+/*
+
+######### Attribution #########
+
+*/
+
+.attribution {
+    left: 50%;
+    bottom: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
